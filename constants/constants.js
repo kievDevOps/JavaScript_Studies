@@ -7,7 +7,7 @@ let circumference;
 radius = window.prompt("Enter the radius of a circle:");
 radius = Number(radius);
 
-circumference = 2 * pi * radius;
+circumference = 2 * PI * radius;
 
 document.getElementById("mySubmit").onclick = function () {
   radius = document.getElementById("text").value;
