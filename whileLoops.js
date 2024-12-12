@@ -6,7 +6,7 @@ while (username === "" || username === null) {
   username = window.prompt("Please enter your username");
 }
 
-console.log("Hello ${username}");
+console.log(`Hello ${username}`);
 
 // ---------------------------------------------------------- //
 
@@ -19,7 +19,7 @@ while (!loggedIn) {
   username2 = window.prompt("Enter your username");
   password = window.prompt("Enter your password");
 
-  if (username === "myUsername" && password === "myPassword") {
+  if (username2 === "myUsername" && password === "myPassword") {
     loggedIn = true;
     console.log("Welcome! you are logged in");
   } else {
