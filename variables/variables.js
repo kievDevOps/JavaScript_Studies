@@ -18,9 +18,9 @@ let price = 10.99;
 let gpa = 4.0;
 
 console.log(typeof age); // This will print the data type of the selected variable
-console.log("You are ${age} years old");
-console.log("The price is $${price}");
-console.log("Your gpa is: ${gpa}");
+console.log(`You are ${age} years old`);
+console.log(`The price is $${price}`);
+console.log(`Your gpa is: ${gpa}`);
 
 // - String variables
 
@@ -39,9 +39,9 @@ let online = true;
 let forSale = false;
 let isStudent = true;
 
-console.log("Kiev is online: ${online}");
-console.log("Is this car for sale: ${forSale}");
-console.log("Enrolled: ${isStudent}");
+console.log(`Kiev is online: ${online}`);
+console.log(`Is this car for sale: ${forSale}`);
+console.log(`Enrolled: ${isStudent}`);
 
 // - Mixed variables
 
@@ -49,6 +49,6 @@ let fullName = "Kiev Dev";
 let old = 24;
 let isMale = true;
 
-document.getElementById("p1").textContent = "Your name is ${fullName}";
-document.getElementById("p2").textContent = "You are ${old} years old";
-document.getElementById("p3").textContent = "You are male: {isMale}";
+document.getElementById("p1").textContent = `Your name is ${fullName}`;
+document.getElementById("p2").textContent = `You are ${old} years old`;
+document.getElementById("p3").textContent = `You are male: {isMale}`;
