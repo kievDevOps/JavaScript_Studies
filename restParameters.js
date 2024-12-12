@@ -31,7 +31,7 @@ function sum(...numbers) {
 }
 
 const total = sum(1, 2, 3, 4, 5);
-console.log("Your total is ${total}");
+console.log(`Your total is ${total}`);
 
 // -------------------------------------------------------- //
 
