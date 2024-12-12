@@ -9,13 +9,13 @@ let guess;
 let running = true;
 
 while (running) {
-  guess = window.prompt("Guess a number between ${minNum} - ${maxNum}");
+  guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
   guess = Number(guess);
 
   if (isNaN(guess)) {
     window.alert("Please enter a valid number");
   } else if (guess < minNum || guess > maxNum) {
-    window.alert("Number should be between ${minNum} and ${maxNum}");
+    window.alert(`Number should be between ${minNum} and ${maxNum}`);
   } else {
     attempts++;
     if (guess < answer) {
