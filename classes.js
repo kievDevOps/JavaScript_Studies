@@ -25,4 +25,4 @@ product1.displayProduct();
 
 const totalPrice = product1.calculateTotal(salesTax);
 
-console.log(`Total price with sales tax: $${totalPrice.toFixed(2)}`);
+console.log(`Total price (with tax): $${totalPrice.toFixed(2)}`);
